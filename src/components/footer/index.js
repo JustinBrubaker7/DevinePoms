@@ -31,8 +31,13 @@ const navigation = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+    <footer className="bg-pink-50">
+        <div className=" flex content-end flex-col m-2 p-6">
+          <li className="list-none">Central Valley, CA</li>
+          <li className="list-none">(559) 313-6461</li>
+          <li className="list-none"><a href="mailto:tds4devinepoms@gmail.com"> tds4devinepoms@gmail.com</a></li>
+        </div>
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
             <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
