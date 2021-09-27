@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-plugin-manifest",
       options: {
