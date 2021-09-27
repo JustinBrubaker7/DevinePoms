@@ -1,5 +1,5 @@
 import React from 'react'
-import DevineCover from "../../images/DevineCover.jpg"
+import DevineCover from "../../images/devineCover.jpg"
 
 
 export default function AboutSection() {
